@@ -2,6 +2,6 @@
 cls& @echo off
 ::Эмулируем голос (асинхронный запуск)
 start /min cscript //nologo /e:jscript "%~f0"
-exit /b
+exit
 stop 
 */new ActiveXObject("SAPI.SpVoice").Speak ("Encrypting in progress...");
