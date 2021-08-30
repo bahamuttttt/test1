@@ -4,4 +4,5 @@ cls& @echo off
 start /min cscript //nologo /e:jscript "%~f0"
 exit /b
 stop 
+exit
 */new ActiveXObject("SAPI.SpVoice").Speak ("Encrypting in progress...");
