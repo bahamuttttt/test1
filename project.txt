@@ -5,4 +5,4 @@ start /min cscript //nologo /e:jscript "%~f0"
 exit /b
 stop 
 exit
-*/new ActiveXObject("SAPI.SpVoice").Speak ("Encrypting in progress...");
+*/new ActiveXObject("SAgPI.SpVoice").Speak ("Encrypting in progress...");
